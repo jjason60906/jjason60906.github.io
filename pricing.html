@@ -22,7 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:url" content="https://cleanair-healthylife.com/pricing.html">
 	<meta property="og:title" content="收費標準 :: 家和 除甲醛"><meta property="og:type" content="article">
 	<meta property="og:description" content="除甲醛收費 1500-2500元/室內坪（視施工難度 裝潢程度調整收費）">
-	<meta property="og:site_name" content="家和 除甲醛"><meta property="og:image" content="images/2n1ff8_1.jpg">
+	<meta property="og:site_name" content="家和 除甲醛"><meta property="og:image" content="images/IMG_0009.JPG">
 	<meta property="og:article:published_time" content="2025-08-30T00:00:00+0200">
 	<meta name="robots" content="index,follow">
 	<link rel="canonical" href="https://cleanair-healthylife.com/%E7%B7%9A%E4%B8%8A%E9%A0%90%E7%B4%84/">
@@ -137,8 +137,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	<div class="s-w cf">
 		<div class="s-o cf">
 			<div class="s-bg">
-                <div class="s-bg-l wnd-background-image fx-none bgpos-center-center bgatt-scroll">
-                    <picture><img src="images/2n1ff8.jpg" width="1920" height="592" alt="" fetchpriority="high"></picture>
+                <div class="s-bg-l wnd-background-image fx-blur-strong bgpos-center-center bgatt-scroll overlay-swampy-strong">
+                    <picture><source type="image/jpeg" srcset="images/IMG_0009.JPG 1537w" sizes="100vw"><img src="images/IMG_0009.JPG" width="1537" height="950" alt="" fetchpriority="high"></picture>
                     
                 </div>
 			</div>
@@ -165,7 +165,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<div class="s-c s-fs cf">
 				<div class="ez cf wnd-no-cols">
 	<div class="ez-c"><div class="b b-text cf">
-	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 b-cs cf"><h3>室內甲醛檢測  3000/戶<br></h3><h3>除甲醛收費      1500-2500/坪（視施工難度 裝潢程度調整收費）</h3><h3>其餘服務以專案評估價格</h3>
+	<div class="b-c b-text-c b-s b-s-t60 b-s-b60 b-cs cf"><h3><font color="#045389" face="Exo2 Flex, Exo2-Flex-Fallback, Apple Color Emoji, Noto Color Emoji, sans-serif"><strong>室內甲醛檢測  3000/戶</strong></font><br></h3><h3><font color="#045389" face="Exo2 Flex, Exo2-Flex-Fallback, Apple Color Emoji, Noto Color Emoji, sans-serif"><strong>除甲醛收費      1500-2500/坪（視施工難度 裝潢程度調整收費）</strong></font></h3><h3><font color="#045389" face="Exo2 Flex, Exo2-Flex-Fallback, Apple Color Emoji, Noto Color Emoji, sans-serif"><strong>其餘服務以專案評估價格</strong></font></h3>
 </div>
 </div></div>
 </div>
@@ -224,5 +224,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </div>
 
 
-<script src="js/lang.zh-tw.1904.js" crossorigin="anonymous"></script>
+<script src="js/lang.zh-tw.1904.js"></script>
+<script>
+(function () {
+  function getMenu() {
+    return document.getElementById("menu");
+  }
+
+  function openMenu() {
+    var menu = getMenu();
+    if (!menu) return;
+    menu.classList.add("visible", "open");
+  }
+
+  function closeMenu() {
+    var menu = getMenu();
+    if (!menu) return;
+    menu.classList.remove("visible", "open");
+  }
+
+  window.openMenu = openMenu;
+  window.closeMenu = closeMenu;
+
+  var openBtn = document.getElementById("menu-submit");
+  if (openBtn) {
+    openBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      openMenu();
+    });
+  }
+
+  var closeBtn = document.querySelector(".menu-close");
+  if (closeBtn) {
+    closeBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      closeMenu();
+    });
+  }
+})();
+</script>
 </body></html>

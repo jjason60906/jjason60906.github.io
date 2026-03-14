@@ -2,10 +2,30 @@ window.translations=["不顯示","有庫存","缺貨","三天內有貨","七天�
 
 function openMenu() {
   var menu = document.getElementById("menu");
-  menu.className = "visible open";
+  if (!menu) return;
+  menu.classList.add("visible", "open");
 }
 
 function closeMenu() {
   var menu = document.getElementById("menu");
-  menu.className = "";
+  if (!menu) return;
+  menu.classList.remove("visible", "open");
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  var openBtn = document.getElementById("menu-submit");
+  if (openBtn) {
+    openBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      openMenu();
+    });
+  }
+
+  var closeBtn = document.querySelector(".menu-close");
+  if (closeBtn) {
+    closeBtn.addEventListener("click", function (e) {
+      e.preventDefault();
+      closeMenu();
+    });
+  }
+});

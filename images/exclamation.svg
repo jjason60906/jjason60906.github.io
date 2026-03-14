@@ -1,0 +1,13 @@
+<svg version="1.1" id="Vrstva_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="8.5 -0.5 83.5 96.5" enable-background="new 8.5 -0.5 83.5 96.5" xml:space="preserve">
+<g>
+	<rect x="49" y="18" width="3" height="38"/>
+	<rect x="49" y="70.3" width="3" height="6"/>
+</g>
+<script  type="text/javascript">
+	<![CDATA[
+		 var c=window.location.search.split('color=')[1]; c=parseInt(c,16); if(!isNaN(c)){c=c.toString(16);var r=document.getElementsByTagName('rect');for(var i=0,l=r.length;i<l;i++){r[i].style.fill='#'+c;}} 
+		
+		]]>
+</script>
+</svg>
